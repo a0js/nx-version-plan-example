@@ -28,6 +28,8 @@
     "version": {
       "preVersionCommand": "npx nx run-many -t build"
     },
-    "versionPlans": true
+    "versionPlans":{
+      "ignorePatternsForPlanCheck": ["**/*.spec.ts"]
+    }
   }
 }
